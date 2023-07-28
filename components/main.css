@@ -94,7 +94,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    display: fixed;
+    z-index: 1200px;
   }
   .navbar #nav-check:checked + .nav-links > ul a {
     font-size: 20px;
@@ -135,11 +135,12 @@
 }
 .title .title-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 239px 239px 239px;
+  grid-template-rows: 164px 164px 164px;
   padding: 32px 25px;
   background-color: #fff;
   border-radius: 30px;
-  gap: 10px;
+  gap: 12px;
   transform: translate(300px);
 }
 .title .title-grid .item1:hover {

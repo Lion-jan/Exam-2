@@ -125,7 +125,8 @@
             flex-direction: column;
             justify-content: flex-start;
             align-items: flex-start;
-            display: fixed;
+            z-index: 1200px;
+            
         }
 
         #nav-check:checked+.nav-links>ul a{
