@@ -21,6 +21,13 @@ header{
    overflow: hidden;
 }
 
+footer{
+    background-image: url(../public/images/footer-bg.png);
+    /* padding-bottom: 500px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 
 
